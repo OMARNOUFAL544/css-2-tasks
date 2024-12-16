@@ -1,0 +1,699 @@
+ 
+/* TASK 1 /*
+.box {
+    margin:10px auto;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 140, 0);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; padding: 20px;
+}
+.opaque-1 { opacity: 1; }
+.opaque-75 { opacity: 0.75; }
+.opaque-50 { opacity: 0.5; }
+.opaque-25 { opacity: 0.25; }
+
+*/
+
+/* TASK 2 /*
+body {
+    width: 300px;
+    height: 50px;
+    margin: 50px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.box {
+    width: 300px;
+    height: 100px;
+    border: 2px solid #000;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.visible {
+    overflow: visible;
+}
+.hidden {
+    overflow: hidden;
+}
+.scroll {
+    overflow: scroll;
+}
+.auto {
+    overflow: auto;
+}
+
+*  task 3 /*
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat( 1fr);
+        gap: 20px;
+    }
+    .border-example {
+        padding: 20px;
+        text-align: center;
+        width: 300px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .solid {
+        border: 5px solid black;
+        background-color: #f0f0f0;
+    }
+    .dashed {
+        border: 5px dashed rgb(255, 0, 0);
+        background-color: #e0f7fa;
+    }
+    .dotted {
+        border: 5px dotted rgb(51, 0, 255);
+        background-color: #e8f5e9;
+    }
+    .double {
+        border: 10px double rgb(179, 0, 255);
+        background-color: #ffebee;
+    }
+    .groove {
+        border: 8px groove rgb(255, 0, 208);
+        background-color: #f3e5f5;
+    }
+    .ridge {
+        border: 8px ridge rgb(255, 242, 0);
+        background-color: #fff3e0;
+    }
+    .inset {
+        border: 8px inset rgb(254, 144, 0);
+        background-color: #eeeeee;
+    }
+    .outset {
+        border: 8px outset brown;
+        background-color: #efebe9;
+    }
+    * task 4 *
+   
+      body {
+      font-family: Arial, sans-serif;
+       text-align: center;
+         margin: 0;
+          padding: 20px;
+       }
+                
+       h1 {
+         margin-bottom: 30px;
+         }
+                
+         .container {
+           display: flex;
+          flex-direction: column;
+           align-items: center;
+          gap: 20px;
+            }
+      
+         .box {
+                    width: 250px;
+                    height: 100px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 16px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+                
+                .border-only {
+                    border: 3px solid blue;
+                }
+                
+                .outline-only {
+                    outline: 3px solid red;
+                }
+                
+                .border-outline {
+                    border: 3px solid blue;
+                    outline: 3px dashed red;
+                }
+                
+                .outline-offset {
+                    outline: 3px solid green;
+                    outline-offset: 5px;
+                    border: 3px solid yellow;
+                }
+                *  task 5 /*
+                div{
+                     border-style: solid; 
+                    border-color: purple;
+                    background-color: rgb(255, 183, 183) ;
+                    padding-top: 50px;
+                    padding-right: 30px;
+                    padding-bottom: 50px;
+                    padding-left: 30px;
+                    text-align: center;
+                
+                }
+                div h1{
+                
+
+                }
+                *
+                /*  task 6  / *
+                div{
+                    border-style: solid; 
+                    border-color: purple;
+                   background-color: rgb(255, 183, 183);
+                    text-align: center;
+                    margin: auto;
+                }
+                
+                
+                *   task 7  /*
+
+                div{
+                    
+                    background-color: rgb(242, 169, 0);
+                }
+                .first{
+                    margin: 20px;
+                    padding: 20px;
+                    border-radius: 5%;
+                    width: 300px;
+                    height: 100px;
+                    box-shadow: 10px 10px 15px;
+                }
+                .second{
+                    margin: 20px;
+                    padding: 20px;
+                    border-radius: 5%;
+                    width: 300px;
+                    height: 100px;
+                    inset: 5px 5px 10px;
+                }
+                .third{
+
+                    margin: 20px;
+                    padding: 20px;
+                    border-radius: 5%;
+                    width: 300px;
+                    height: 100px;
+                    box-shadow: 5px 5px 10px black , 
+                    -5px -5px 10px red;
+                
+                }
+                    ////*
+
+
+                
+                
+               /*  task 8 /* 
+               
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.relative {
+    position: relative;
+    border: 1px solid black;
+    width: 90%;
+    height: 100px;
+    margin: 20px;
+}
+
+
+.fixed {
+    position: fixed;
+    top: 150px;
+    left: 25px;
+    background-color: blue;
+    color: white;
+    z-index: 2;
+    width: 75%;
+    height: 100px;
+}
+
+
+.absolute {
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    background-color: lightgreen;
+    width: 50%;
+    height: 100px;
+}
+
+*/
+
+
+/*
+
+
+.box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    text-align: left;
+    line-height: 100px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+.box1 {
+    background-color: blue;
+    top: 100px;
+    left: 150px;
+    z-index: 1;
+}
+
+.box2 {
+    background-color: red;
+    top: 120px;
+    left: 170px;
+    z-index: 2;
+}
+
+.box3 {
+    background-color: orange;
+    top: 140px;
+    left: 190px;
+    z-index: 3;
+}
+
+.box4 {
+    background-color: green;
+    top: 160px;
+    left: 210px;
+    z-index: 4;
+}
+
+      */
+
+    /*    task 10  /*
+
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+       
+
+    }
+
+.box {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.box1 {
+    background-color: #ff4d6d; 
+    top: 20px;
+    left: 20px;
+}
+
+.box2 {
+    background-color: #4db8ff; 
+    top: 20px;
+    right: 20px;
+}
+
+.box3 {
+    background-color: #baff69;
+    bottom: 20px;
+    left: 20px;
+}
+
+.box4 {
+    background-color: #ffe75e; 
+    bottom: 20px;
+    right: 20px;
+}
+
+
+*   task 11  /*
+
+.omar{
+    margin: 75px ;
+    padding: 75px ;
+    width: 75px ;
+    height: 75px ;
+    border-color: blue red;
+    border-style: none none dotted groove ;
+
+}
+    *  task 12  /*
+
+.outer-box {
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 10px;
+    width: 90%;
+   
+}
+
+
+.inner-box {
+    border: 2px dashed red;
+    background-color: #fdd;
+    padding : 10px;
+    margin: 10px ; 
+    
+}*   task 13  /*
+    div{
+    border: 2px solid #154c79;
+    width: 275px;
+    height: 470px;
+    margin:  auto; 
+    padding: 10px;
+    overflow: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+img{
+    position: relative;
+    width: 270px;
+    height: 180px;
+}
+*/
+
+
+/*   task 14  /*
+.box-shadows{
+    border: 1px solid red;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto; 
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-left: 19px;
+    gap: 20px;
+    box-shadow:2px -2px white, 5px -5px blue,7px -7px white, 10px -10px green,12px -12px white, 15px -15px purple;
+    
+                
+}
+
+*   task 15    ///*
+.s0{
+   
+    position: relative;
+    width: 700px;
+    height: 500px;
+    
+    }
+    
+    .s{
+        
+        
+    border: solid 1px;
+    border-radius: 5px;
+    width: 75px;
+    height: 75px;
+    margin: auto;
+    position: absolute;
+    }
+    
+    .s1{
+    
+    background-color: palevioletred;
+    top: 190px;
+    left: 310px;
+    z-index: 1;
+    
+    
+    }
+    .s2{
+       
+    background-color: blue;
+    top: 150px;
+    left: 350px;
+    
+    
+    }
+    
+    .s3{ 
+    background-color: yellow;
+    top: 150px;
+    left: 435px;
+    
+    }
+    
+    .s4{
+    background-color: green;
+    top: 150px;
+    left: 520px;
+    
+    
+    
+    }
+    
+    .s5{
+    background-color: purple;
+    top: 235px;
+    left: 265px;
+    
+    
+    
+    
+    
+    }
+    
+    .s6{
+    background-color: mediumorchid;
+    top: 235px;
+    left: 350px;
+    
+    
+    
+    
+    }
+    
+    .s7{
+    background-color: palevioletred;
+    top: 235px;
+    left: 435px;
+    
+    
+    
+    }
+    
+    .s8{
+    
+    background-color: blue;
+    top: 235px;
+    left: 520px;
+    
+    
+    
+    
+    }
+    .s9{
+    background-color: green;
+    top: 320px;
+    left: 265px;
+    
+    
+    
+    
+    }
+    
+    .s10{
+    background-color: yellow;
+    top: 320px;
+    left: 350px;
+    
+    
+    
+    
+    
+    }
+    
+    .s11{
+    background-color: purple;
+    top: 320px;
+    left: 435px;
+    
+    
+    
+    
+    
+    }
+    
+    .s12{
+    background-color: mediumorchid;
+    top: 320px;
+    left: 520px;
+    }
+    
+    */
+    /**    task 16    /*
+    .div1 {
+        position: fixed;
+          display: flex;
+          align-items: flex-start;
+          gap: 20px;
+          padding: 20px;
+          font-size: 10px;
+        }
+      
+       img {
+          width: 150px;
+          height: auto;
+        }
+
+        *    task 17  /***
+        .navbar {
+            background-color: #333;
+            position: sticky;
+            color: white;
+            padding: 20px 20px;
+            display: flex;
+            justify-content: flex-start;
+            top: 0;
+          }
+        
+          .navbar a {
+            color: white;
+            position: sticky;
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 18px;
+          }
+        
+          .navbar a:hover {
+            position: sticky;
+            text-decoration: none;
+          }
+
+          *      task 18  /*****
+
+          .o{
+            margin: 100px;
+            border-radius: 10px;
+            position: absolute; 
+            width: 30%;
+            height: 30%;
+            }
+            
+            .div1{
+            
+            z-index:1 ;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            }
+            
+            .div2{
+            top:25px;
+            left: 25px;
+            }
+            
+            .div3{
+                top: 50px;
+                left: 50px;
+                }
+                
+                .div4{
+                  top:75px;
+                    left: 75px;
+                    }
+
+                    ******* task 19 //////
+
+                    .img{
+                        border: solid brown 100px ;
+                        width: fit-content;
+                        height: fit-content;
+                        padding: 15px;
+                        top: 50%;
+                        left: 50%;
+                        position: absolute;
+                        transform: translate(-50%,-50%);
+                        border-image: url("./Screenshot_16-12-2024_165157_www.clipartsuggest.com.jpeg") 33% 33% 33% 33%;
+                        
+                            }
+
+                            
+                        *    task 20 ****
+                        body{
+                            margin: 0 ;
+                            padding: 0 ;
+                            box-sizing: border-box;
+                        
+                
+                            font-family: Arial, sans-serif;
+                            line-height: 1.6;
+                          }
+                          .navbar {
+                            background-color: #333;
+                            color: white;
+                            padding: 15px;
+                            text-align: center;
+                            position: sticky;
+                            top: 0;
+                            z-index: 1000;
+                          }
+                          .navbar a {
+                            color: white;
+                            text-decoration: none;
+                            padding: 10px 20px;
+                            font-size: 18px;
+                            margin: 15px;
+                          }
+                        
+                          .navbar a:hover {
+                            background-color: #575757;
+                            border-radius: 5px;
+                          }
+                        
+                          .headline {
+                            
+                            background-color: #333;
+                            color: white;
+                            height: 150px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 40px;
+                            font-weight: bold;
+                          }
+                        
+                        
+                          .product1 {
+                            display: flex;
+                            justify-content: space-around;
+                            padding: 30px;
+                            margin-top: 20px;
+                          }
+                        
+                          .product2{
+                            background-color: #fff;
+                            width: 250px;
+                            border-radius: 8px;
+                            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                            overflow: hidden;
+                            text-align: center;
+                          }
+                          .footer{
+                            padding: 20px;
+                            text-align: center;
+                            background-color: #333;
+                            color: aliceblue;
+                          }
+******************/
